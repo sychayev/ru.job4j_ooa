@@ -12,8 +12,8 @@ public class Converter {
     }
 
     public static void main(String[] args) {
-        System.out.println(Converter.rubleToEuro(345678));
-        System.out.println(Converter.rubleToDollar(834576));
+        System.out.println(Converter.rubleToEuro(34568));
+        System.out.println(Converter.rubleToDollar(83476));
     }
 
 }
