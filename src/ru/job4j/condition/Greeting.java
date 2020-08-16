@@ -7,5 +7,6 @@ public class Greeting {
         int year = 2020;
         String add = idea + year;
         System.out.println(add + "!");
+
     }
 }
