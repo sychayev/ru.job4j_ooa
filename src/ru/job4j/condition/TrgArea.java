@@ -8,6 +8,7 @@ public class TrgArea {
         double third = p - c;
         double formulaTrgArea = Math.sqrt(first * second * third);
         return formulaTrgArea;
+
     }
 
     public static void main(String[] args) {
