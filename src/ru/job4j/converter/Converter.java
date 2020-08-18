@@ -10,6 +10,7 @@ public class Converter {
     public static int rubleToDollar(int value) {
         int rs2 = value / 72;
         return rs2;
+
     }
 
     public static void main(String[] args) {
