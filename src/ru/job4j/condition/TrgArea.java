@@ -1,8 +1,6 @@
 package ru.job4j.condition;
 
 public class TrgArea {
-
-    @SuppressWarnings("checkstyle:ParenPad")
     public static double area(double a, double b, double c) {
         double p = (a + b + c) / 2;
         double first = p - a;
@@ -13,7 +11,7 @@ public class TrgArea {
     }
 
     public static void main(String[] args) {
-        double res = TrgArea.area(10, 5, 7);
+        double res = TrgArea.area(7, 5, 7);
         System.out.println(res);
     }
 
