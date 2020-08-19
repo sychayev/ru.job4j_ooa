@@ -1,4 +1,4 @@
-package ru.job4j.calculator;
+package ru.job4j.calculate;
 
 public class Fit {
 
@@ -13,13 +13,13 @@ public class Fit {
     }
 
     public static void main(String[] args) {
-        short height = 190;
+        short height = 150;
         double man = Fit.manWeight(height);
-        System.out.println("Man 190 is " + man);
+        System.out.println("Man 90 is " + man);
 
-        short heightWoman = 160;
+        short heightWoman = 130;
         double woman = Fit.womanWeight(heightWoman);
-        System.out.println("Woman 160 is " + woman);
+        System.out.println("Woman 65 is " + woman);
 
     }
 
