@@ -3,6 +3,7 @@ package ru.job4j.condition;
 public class PsevdoCod {
     public static void main(String[] args) {
 
+
         //    Обьявили A,B,C
 //     if ((A > B || B < C) && (A > C)) Вывести на экран А;
 //    if ((C > B || B < A) && (C > A))   Вывести на экран C;
