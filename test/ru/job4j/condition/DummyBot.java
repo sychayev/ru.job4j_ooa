@@ -9,6 +9,7 @@ public class DummyBot {
             System.out.println("Привет умник!");
         } else if ("Пока.".equals(question)) {
             System.out.println("До скорой встречи.");
+
         }
         return rsl;
     }

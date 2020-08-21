@@ -21,6 +21,7 @@ public class DummyBotTest {
         assertThat(
                 DummyBot.answer("Пока."),
                 is("До скорой встречи.")
+
         );
     }
 
