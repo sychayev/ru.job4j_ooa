@@ -15,6 +15,7 @@ public class PsevdoCod {
             System.out.println("C is bigger than A!");
         }
 
+
 //    Обьявили A>B,B=C
 //    if(A > B) Вывести на экран А;
 //    else      Вывести на экран B;
