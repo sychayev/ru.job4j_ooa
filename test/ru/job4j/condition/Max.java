@@ -9,5 +9,7 @@ public class Max {
 
     public static void main(String[] args) {
         System.out.println(Max.max(2, 9));
+        System.out.println(Max.max(9,9));
+        System.out.println(Max.max(9,2));
     }
 }
