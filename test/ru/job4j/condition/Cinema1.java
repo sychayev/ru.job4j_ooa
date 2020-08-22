@@ -1,6 +1,6 @@
 package ru.job4j.condition;
 
-public class Cinema {
+public class Cinema1 {
 
     public static void permission(boolean allowByParent,boolean hasMoney){
         if(allowByParent && hasMoney){
