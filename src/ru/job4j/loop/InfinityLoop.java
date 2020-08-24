@@ -6,7 +6,6 @@ public class InfinityLoop {
             System.out.println("infinity");
 //            i = i++;
             i = i -1;
-
         }
     }
 
