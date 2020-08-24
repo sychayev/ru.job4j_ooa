@@ -36,6 +36,6 @@ public class SwitchWeek {
     }
 
     public static void main(String[] args) {
-        System.out.print(SwitchWeek.nameOfDay(5));
+        System.out.print(SwitchWeek.nameOfDay(8));
     }
 }
