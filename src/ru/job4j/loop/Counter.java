@@ -17,7 +17,6 @@ public class Counter {
             }
         }
         return sum;
-
     }
 
     public static void main(String[] args) {

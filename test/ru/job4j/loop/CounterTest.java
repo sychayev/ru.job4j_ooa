@@ -13,7 +13,6 @@ public class CounterTest {
         int expected = 65;
         assertThat(rsl,is(expected));
     }
-
     @Test
     public void whenTreeToNine() {
         int rsl = Counter.sumByEven(3,9);
