@@ -7,20 +7,12 @@ public class ThreeMax {
         int result = first;
         if (second > first) {
             result = second;
-
         }
         if (result < third) {
             result = third;
         }
         return result;
-//        if ((first > second || second < third) &&(first > third)) {
-//            return first;
-//        }
-//       else if ((second > first || first < third)&&(second > third)) {
-//           return second;
-//        }else {
-//           return third;
-//        }
+
     }
 
 
