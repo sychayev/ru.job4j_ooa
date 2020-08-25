@@ -7,6 +7,7 @@ public class ThreeMax {
         int result = first;
         if (second > first) {
             result = second;
+
         }
         if (result < third) {
             result = third;
