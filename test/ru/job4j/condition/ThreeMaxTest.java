@@ -11,6 +11,7 @@ public class ThreeMaxTest {
     public void firstMax() {
         int rsl = ThreeMax.max(10,5,1);
         assertThat(rsl,is(10));
+
     }
     @Test
     public void secondMax() {

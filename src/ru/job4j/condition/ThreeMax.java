@@ -37,7 +37,6 @@ public class ThreeMax {
         }else {
            return third;
         }
-
     }
 
 
