@@ -28,25 +28,23 @@ public class ThreeMax {
 //    }
 
     public static int max(int first, int second, int third) {
-        int result = first;
-        if (first > second && first > third) {
-            result = second;
+
+        if ((first > second || second < third) &&(first > third)) {
+            return first;
         }
-        if (second > first && second > third) {
-            result = third;
+       else if ((second > first || first < third)&&(second > third)) {
+           return second;
+        }else {
+           return third;
         }
-        return result;
+
     }
 
 
     public static void main(String[] args) {
-        System.out.println("FirstMax = " + ThreeMax.max(10, 5, 1));
-        System.out.println("SecondMax = " + ThreeMax.max(10, 50, 1));
-        System.out.println("ThirdMax = " + ThreeMax.max(1, 5, 100));
-        System.out.println("AllEq = " + ThreeMax.max(1, 1, 1));
-        System.out.println("FirstEqSecond = " + ThreeMax.max(10, 10, 1));
-        System.out.println("FirstEqThird = " + ThreeMax.max(100, 1, 100));
-        System.out.println("SecondEqThird = " + ThreeMax.max(1, 100, 100));
+        System.out.println(ThreeMax.max(10, 5, 1));
+        System.out.println(ThreeMax.max(10, 50, 1));
+        System.out.println(ThreeMax.max(11,12,13));
     }
 
 }

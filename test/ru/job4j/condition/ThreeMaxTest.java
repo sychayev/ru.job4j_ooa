@@ -19,27 +19,8 @@ public class ThreeMaxTest {
     }
     @Test
     public void thirdMax() {
-        int rsl = ThreeMax.max(1,5,100);
-        assertThat(rsl,is(100));
+        int rsl = ThreeMax.max(11,12,13);
+        assertThat(rsl,is(13));
     }
-    @Test
-    public void allEq() {
-        int rsl = ThreeMax.max(1,1,1);
-        assertThat(rsl,is(1));
-    }
-    @Test
-    public void firstEqSecond() {
-        int rsl = ThreeMax.max(10,10,1);
-        assertThat(rsl,is(10));
-    }
-    @Test
-    public void firstEqThird() {
-        int rsl = ThreeMax.max(100,1,100);
-        assertThat(rsl,is(100));
-    }
-    @Test
-    public void secondEqThird(){
-        int rsl = ThreeMax.max(1,100,100);
-        assertThat(rsl,is(100));
-    }
+
 }
