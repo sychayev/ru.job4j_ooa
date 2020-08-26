@@ -6,11 +6,11 @@ public class CheckPrimeNumber {
         boolean prime = number > 1;
 
         for (int i = 2; i < number; i++) {
-            if (number % i == 0) {
-                prime = true;
+            if (number % i != 0) {
+                prime = false;
                 break;
             } else {
-                prime = false;
+                prime = true;
                 break;
             }
         }
@@ -19,7 +19,7 @@ public class CheckPrimeNumber {
 
     public static void main(String[] args) {
         System.out.println(CheckPrimeNumber.check(5));
-        System.out.println(CheckPrimeNumber.check(4));
-        System.out.println(CheckPrimeNumber.check(2));
+//        System.out.println(CheckPrimeNumber.check(4));
+//        System.out.println(CheckPrimeNumber.check(2));
     }
 }
