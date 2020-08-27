@@ -2,11 +2,10 @@ package ru.job4j.condition;
 
 public class MultiMax {
     public static int max(int first, int second, int third) {
-        int result= first ;
-        int firstMax = ((first > second || second <third)&&(first > third))?first:third;
-        int secondMax = ((second > first || first < third)&&(second > third))?second:firstMax;
-        int thirdMax= ((third > firstMax || firstMax < secondMax)&&(third > secondMax ))?third:secondMax ;
-        return result;
+
+        int firstMax = first > second ? first : second;
+        int thirdMax = third > firstMax ? third : firstMax;
+        return thirdMax;
     }
 
     public static void main(String[] args) {
