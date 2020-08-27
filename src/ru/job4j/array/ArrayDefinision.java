@@ -16,7 +16,10 @@ public class ArrayDefinision {
         s[1] = " my";
         s[2] = " name";
         s[3] = " Petr.";
-        System.out.println(s[3]);
+        System.out.print(s[0]);
+        System.out.print(s[1]);
+        System.out.print(s[2]);
+        System.out.print(s[3]);
 
 
     }
