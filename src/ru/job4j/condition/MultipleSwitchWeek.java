@@ -4,8 +4,7 @@ public class MultipleSwitchWeek {
 
     public static int numberOfDay(String name) {
 
-        int Days;
-        switch (name){
+        int Days = switch (name) {
 
             case "Monday","Понедельник" ->1;
             case "Tuesday","Вторник" ->2;
@@ -15,9 +14,9 @@ public class MultipleSwitchWeek {
             case "Saturday","Суббота" ->6;
             case "Sunday","Воскресенье" ->7;
             default ->-1;
-                return Days;
-        } ;
 
+        } ;
+        return Days;
     }
 
     public static void main(String[] args) {
