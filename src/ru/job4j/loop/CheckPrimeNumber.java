@@ -10,7 +10,6 @@ public class CheckPrimeNumber {
                 prime = false;
                 break;
             } else {
-                prime = true;
                 break;
             }
         }
