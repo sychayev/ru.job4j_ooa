@@ -18,5 +18,4 @@ public class SwitchArray {
             System.out.println(rsl[i]);
         }
     }
-
 }
