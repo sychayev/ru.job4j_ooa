@@ -15,4 +15,13 @@ public class FindLoopTest {
         int expect = 0;
         assertThat(result, is(expect));
     }
+
+    @Test
+    public void thenArrayHas2Then2() {
+        int[] input = {89, 2, 34, 54, 4};
+        int value = 2;
+        int result = FindLoop.indexOf(input, value);
+        int expect = 2;
+        assertThat(result, is(expect));
+    }
 }
