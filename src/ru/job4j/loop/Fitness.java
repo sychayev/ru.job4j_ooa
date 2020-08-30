@@ -4,13 +4,11 @@ public class Fitness {
 
     public static int calc(int ivan, int nik) {
         int month = 0;
-//        int ivanInMonth = ivan * 3;
-//        int nikInMonth = nik * 2;
-        while (ivan < nik) {
-//            month = ivanInMonth / nikInMonth;
-            int month1 = ivan * 3 / nik;
-//            System.out.println(month++);
-            month = month1;
+        while (ivan <= nik) {
+            int ivanInMonth = ivan * 3;
+            int nikInMonth = nik * 2;
+            month = ivanInMonth / nikInMonth;
+            month++;
             if (ivan > nik) {
                 break;
             }
