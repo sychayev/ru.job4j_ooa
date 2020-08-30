@@ -2,17 +2,22 @@ package ru.job4j.loop;
 
 public class Morgage {
 
-    public static int year(int amount,int salary,double percent){
-        int year = 0;
+    public static int year(int amount, int salary, double percent) {
+        int year = 1;
+        int ammountAfterYear = amount - salary;
 
-        while(year > 0 ){
-          year =   amount +=salary * percent;
+        while (year > 0) {
+            year = ammountAfterYear *= percent += ammountAfterYear;
+            year++;
+//            if (ammountAfterYear == 0) {
+//                break;
+//            }
         }
-
         return year;
     }
 
     public static void main(String[] args) {
-        System.out.print(Morgage.year(1000,50,12));
+        System.out.println(Morgage.year(1000, 1200, 1));
+        System.out.println(Morgage.year(100, 120, 1));
     }
 }
