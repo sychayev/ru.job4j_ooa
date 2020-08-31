@@ -6,7 +6,6 @@ public class SwitchArray {
         int temp = array[source];
         array[source] = array[dest];
         array[dest] = temp;
-
         return array;
     }
 
@@ -20,6 +19,7 @@ public class SwitchArray {
     }
 
     public static void main(String[] args) {
+
         int[] nums = new int[]{1, 2, 3, 4};
         int[] rsl = SwitchArray.swapBorder(nums);
         for (int i = 0; i < nums.length; i++) {
