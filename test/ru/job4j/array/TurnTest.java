@@ -8,7 +8,8 @@ import static org.junit.Assert.*;
 public class TurnTest {
 
     @Test
-    public void whenTurnArrayWithEvenAmountofElementsThenTurnedArray() {
+    public void whenTurnArrayWithEvenAmountofElementsThenTurnedArray()
+    {
         Turn turner = new Turn();
         int[] input = new int[]{1, 2, 3, 4};
         int[] result = turner.back(input);
@@ -18,7 +19,8 @@ public class TurnTest {
     }
 
     @Test
-    public void whenTurnArrayWithOddAmountOfElementsThenTurnedArray() {
+    public void whenTurnArrayWithOddAmountOfElementsThenTurnedArray()
+    {
         Turn turner = new Turn();
         int[] input = new int[]{1, 2, 3, 4, 5};
         int[] result = turner.back(input);
