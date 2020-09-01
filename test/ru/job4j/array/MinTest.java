@@ -18,6 +18,7 @@ public class MinTest {
     }
 
     @Test
+
     public void findMiddleMin() {
         assertThat(Min.findMin(new int[]{10, 2, 5}), is(2));
     }
