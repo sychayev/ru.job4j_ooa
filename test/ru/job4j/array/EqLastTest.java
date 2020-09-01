@@ -15,11 +15,11 @@ public class EqLastTest {
         assertThat(check(left, right), is(true));
     }
 
-//    @Test
-//    public void whenNotEq() {
-//        int left[] = {1, 2, 3};
-//        int right[] = {3, 3, 4};
-//        assertThat(check(left, right), is(false));
-//
-//    }
+    @Test
+    public void whenNotEq() {
+        int left[] = {1, 2, 3};
+        int right[] = {3, 3, 4};
+        assertThat(check(left, right), is(false));
+
+    }
 }
