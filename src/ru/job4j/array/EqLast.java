@@ -2,22 +2,27 @@ package ru.job4j.array;
 
 public class EqLast {
     public static boolean check(int[] left, int[] right) {
-        int firstMin = 0;
-        int secondMin = 0;
-        for (int i = 0; i < left.length; i++) {
-            int temp1 = left[left.length - 1];
-            left[left.length - 1] = temp1;
-            for (int j = 0; j < right.length; j++) {
-                int temp = right[right.length - 1];
-                right[right.length - 1] = temp;
-                if (temp1 == temp) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
+//        for (int i = 0; i < left.length; i++) {
+//            int temp1 = left[left.length - 1];
+//            left[left.length - 1] = temp1;
+//            for (int j = 0; j < right.length; j++) {
+//                int temp = right[right.length - 1];
+//                right[right.length - 1] = temp;
+//                if (temp1 == temp) {
+//                    return true;
+//                } else {
+//                    return false;
+//                }
+//            }
+//        }
+        int lft = left[2];
+        int rght = right[2];
+
+        if (lft == rght) {
+            return true;
         }
         return false;
+
     }
 
     public static void main(String[] args) {
