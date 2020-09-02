@@ -5,11 +5,7 @@ public class EqLast {
 
         int lft = left[left.length - 1];
         int rght = right[right.length - 1];
-
-        if (lft == rght) {
-            return true;
-        }
-        return false;
+        return lft == rght;
 
     }
 
