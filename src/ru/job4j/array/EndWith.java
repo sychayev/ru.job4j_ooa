@@ -9,7 +9,6 @@ public class EndWith {
                 return false;
             }
         }
-//        }
         return result;
     }
 
