@@ -7,11 +7,10 @@ public class Check {
 
         for (int i = 0; i < data.length; i++) {
 
-            if (data[i] == false) {
+            if (data[i] != data[0]) {
                 return false;
             }
-
-            data[0] = true;
+//            data[0] = true;
         }
 
         return result;
