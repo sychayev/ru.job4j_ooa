@@ -15,7 +15,6 @@ public class FindLoopTest {
         int expect = 0;
         assertThat(result, is(expect));
     }
-
     @Test
     public void thenArrayHas2Then2() {
         int[] input = new int[]{5, 2, 10, 2, 4};
