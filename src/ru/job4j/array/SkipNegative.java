@@ -7,9 +7,7 @@ public class SkipNegative {
             for (int j = 0; j < array[i].length; j++) {
 
                 if (array[i][j] < 0) {
-                    int val = array[i][j];
-                    val = 0;
-                    array[i][j] = val;
+                    array[i][j] = 0;
                 }
                 System.out.print(array[i][j] + " ");
 
