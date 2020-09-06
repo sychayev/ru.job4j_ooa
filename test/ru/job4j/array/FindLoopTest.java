@@ -9,7 +9,6 @@ public class FindLoopTest {
 
     @Test
     public void whenArrayHasLength5Then0() {
-
         int[] input = {5, 10, 3};
         int value = 5;
         int result = FindLoop.indexOf1(input, value);
