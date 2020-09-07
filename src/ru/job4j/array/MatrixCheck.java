@@ -32,6 +32,17 @@ public class MatrixCheck {
         return rsl;
     }
 
+    public static boolean isWin(char[][] board) {
+        boolean result = false;
+        for (int i = 0; i < board.length; i++) {
+            if (monoHorizontal(board, i) || monoVertical(board, i)) {
+                result = true;
+                break;
+            }
+        }
+        return result;
+    }
+
     public static void main(String[] args) {
         char[][] mass = new char[][]{
                 {' ', ' ', ' '},
@@ -49,5 +60,30 @@ public class MatrixCheck {
                 {' ', 'X', ' '},
                 {' ', ' ', 'X'}};
         System.out.println(MatrixCheck.extractDiagonal(mass2));
+
+        char[][] mass3 = new char[][]{
+                {' ', ' ', 'X', ' ', ' '},
+                {' ', ' ', 'X', ' ', ' '},
+                {' ', ' ', 'X', ' ', ' '},
+                {' ', ' ', 'X', ' ', ' '},
+                {' ', ' ', 'X', ' ', ' '},
+        };
+        System.out.println(MatrixCheck.isWin(mass3));
+        char[][] mass4 = new char[][]{
+                {' ', ' ', 'X', ' ', ' '},
+                {' ', ' ', 'X', ' ', ' '},
+                {' ', 'X', ' ', ' ', ' '},
+                {' ', ' ', 'X', ' ', ' '},
+                {' ', ' ', 'X', ' ', ' '},
+        };
+        System.out.println(MatrixCheck.isWin(mass4));
+        char[][] mass5 = new char[][]{
+                {' ', ' ', ' ', ' ', ' '},
+                {' ', ' ', ' ', ' ', ' '},
+                {'X', 'X', 'X', 'X', 'X'},
+                {' ', ' ', 'X', ' ', ' '},
+                {' ', ' ', 'X', ' ', ' '},
+        };
+        System.out.println(MatrixCheck.isWin(mass5));
     }
 }
