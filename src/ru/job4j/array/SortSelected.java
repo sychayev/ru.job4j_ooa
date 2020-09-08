@@ -20,7 +20,6 @@ public class SortSelected {
                 int temp = data[index];
                 data[index] = data[min + 1];
                 data[min + 1] = temp;
-
             }
         }
         return data;

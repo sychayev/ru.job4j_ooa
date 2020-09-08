@@ -9,6 +9,7 @@ public class SortSelectedTest {
 
     @Test
     public void whenSort1() {
+
         int[] input = new int[]{3,  1, 2};
         int[] result = SortSelected.sort(input);
         int[] expect = new int[]{1, 2, 3};
