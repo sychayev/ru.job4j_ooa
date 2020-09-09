@@ -4,8 +4,8 @@ public class SortSelected {
     public static int[] sort(int[] data) {
 
         for (int i = 0; i < data.length - 1; i++) {
-            int min = MinDiapazon.findMin(data, 0, data.length);
-            int index = FindLoop.indexOf2(data, min, 0, data.length);
+            int min = MinDiapazon.findMin(data, i, data.length - 1);
+            int index = FindLoop.indexOf2(data, min, i, data.length - 1);
 //            if (data[i] < data[i + 1]) {
 //                int temp = data[i];
 //                data[i] = data[i + 1];
@@ -16,11 +16,11 @@ public class SortSelected {
 //                data[min] = data[min + 1];
 //                data[min + 1] = temp;
 //            }
-            if (min < index+ 1) {
-                int temp = data[index];
-                data[index] = data[min + 1];
-                data[min + 1] = temp;
-            }
+//            if (min < index + 1) {
+            int temp = data[index];
+            data[index] = data[i];
+            data[i] = temp;
+//            }
         }
         return data;
     }
