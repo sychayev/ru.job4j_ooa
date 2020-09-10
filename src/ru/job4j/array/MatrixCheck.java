@@ -1,5 +1,8 @@
 package ru.job4j.array;
-
+/*
+Создал клас MatrixCheck.Проверяет расположение символа Х по
+горизонтали,вертикали,диагонали.
+ */
 public class MatrixCheck {
     public static boolean monoHorizontal(char[][] board, int row) {
         boolean result = true;
@@ -13,15 +16,14 @@ public class MatrixCheck {
     }
 
     public static boolean monoVertical(char[][] board, int column) {
-
-        boolean result = true;
+        boolean rst = true;
         for (int i = 0; i < board.length; i++) {
             if (board[i][column] != 'X') {
-                result = false;
+                rst = false;
                 break;
             }
         }
-        return result;
+        return rst;
     }
 
     public static char[] extractDiagonal(char[][] board) {
