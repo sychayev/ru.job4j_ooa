@@ -1,7 +1,7 @@
 package ru.job4j.array;
 /*
-Создал клас MatrixCheck.Проверяет расположение символа Х по
-горизонтали,вертикали,диагонали.
+Создал клас MatrixCheck.Проверяет
+выигрышные комбинации в сокобан.
  */
 public class MatrixCheck {
     public static boolean monoHorizontal(char[][] board, int row) {
