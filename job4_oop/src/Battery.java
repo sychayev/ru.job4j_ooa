@@ -18,6 +18,7 @@ public class Battery {
         b1.exchange(b2);
         System.out.println("load first : " + b1.load +
                 " ,load second : " + b2.load);
+
     }
 
 }
