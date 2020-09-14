@@ -1,13 +1,13 @@
 public class Battery {
     private int load;
 
-    public Battery(int size) {
-        this.load = size;
+    public void exchange(Battery another) {
+        this.load = this.load + another.load;
+        another.load = 0;
     }
 
-    public void exchange(Battery another) {
-        this.load =   another.load - this.load;
-        another.load = 0;
+    public Battery(int size) {
+        this.load = size;
     }
 
     public static void main(String[] args) {
