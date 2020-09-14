@@ -7,6 +7,7 @@ public class Point {
     public Point(int first, int second) {
         this.x = first;
         this.y = second;
+
     }
 
     public double distance(Point that) {
@@ -19,6 +20,5 @@ public class Point {
         Point b = new Point(0, 2);
         double dist = a.distance(b);
         System.out.println(dist);
-
     }
 }
