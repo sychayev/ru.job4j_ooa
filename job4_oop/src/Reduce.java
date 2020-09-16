@@ -8,6 +8,7 @@ public class Reduce {
             System.out.println(array[i]);
         }
     }
+
     public static void main(String[] args) {
         int [] array = {1,2,3};
         Reduce reduce = new Reduce();
