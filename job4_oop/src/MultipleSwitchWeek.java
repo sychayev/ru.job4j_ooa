@@ -2,7 +2,6 @@ public class MultipleSwitchWeek {
     public static int numberOfDay(String name) {
 
         int day = switch (name) {
-
             case "Monday", "Понедельник" -> 1;
             case "Tuesday", "Вторник" -> 2;
             case "Thursday", "Среда" -> 3;
