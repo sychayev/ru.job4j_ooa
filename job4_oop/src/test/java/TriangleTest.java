@@ -5,7 +5,6 @@ import static org.junit.Assert.*;
 
 public class TriangleTest {
 
-
         @Test
         public void period() {
             Point a = new Point(0, 0);
