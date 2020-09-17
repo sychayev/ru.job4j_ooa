@@ -3,7 +3,6 @@ public class Triangle {
     private Point first;
     private Point second;
     private Point third;
-
     public  Triangle(Point ap, Point pc, Point cp) {
         this.first = ap;
         this.second = pc;
