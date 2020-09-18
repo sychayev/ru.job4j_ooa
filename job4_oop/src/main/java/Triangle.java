@@ -10,7 +10,7 @@ public class Triangle {
     }
 
     public static double period(double a, double b, double c) {
-        double prd = (a + b + c) ;
+        double prd = (a + b + c) /2;
         return prd;
     }
 
@@ -37,7 +37,7 @@ public class Triangle {
 
     public static void main(String[] args) {
 
-        System.out.println(Triangle.period(0,4,4));
+        System.out.println(Triangle.period(0,4,0));
 //        System.out.println(Triangle.exist(0,4,4));
 
     }
