@@ -5,7 +5,4 @@ public class ElementNotFoundException extends Exception{
         super(message);
     }
 
-    public static void main(String[] args) {
-
-    }
 }
