@@ -15,7 +15,6 @@ public class Person {
         return name;
     }
 
-
     public String getSurname() {
         return surname;
     }

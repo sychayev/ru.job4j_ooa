@@ -10,7 +10,6 @@ public class PhoneDictionary {
 
     public String ret() {
         String r = "";
-
         for (Person s : persons) {
             if (s.getAddress().equals("dera")) {
                 r = "Hadera";
