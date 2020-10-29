@@ -1,74 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ca9b8b67-110a-44e0-88aa-9a48075a2b9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/job4j_tracker/src/main/java/ru/job4j/tracker/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/games_oop_javafx/chess/src/main/java/ru/job4j/chess/BishopBlack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/job4j/collection/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/job4j/collection/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/job4j/collection/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/job4j/collection/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/job4j/collection/src/ConvertList2Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/job4j/collection/src/ConvertList2ArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/job4j/search/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/job4j/search/src/PhoneDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/games_oop_javafx" beforeDir="false" afterPath="$PROJECT_DIR$/games_oop_javafx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games_oop_javafx/puzzle/src/main/java/ru/job4j/puzzle/Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/games_oop_javafx/puzzle/src/main/java/ru/job4j/puzzle/Logic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games_oop_javafx/puzzle/src/main/java/ru/job4j/puzzle/Win.java" beforeDir="false" afterPath="$PROJECT_DIR$/games_oop_javafx/puzzle/src/main/java/ru/job4j/puzzle/Win.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games_oop_javafx/puzzle/src/test/java/ru/job4j/puzzle/WinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/games_oop_javafx/puzzle/src/test/java/ru/job4j/puzzle/WinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/job4_oop.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/main/java/Ball.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/main/java/BallStory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/main/java/Battery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/main/java/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/main/java/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/main/java/DummyDic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/main/java/Excersices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/main/java/Fix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/main/java/Fox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/main/java/Hare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/main/java/Jar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/main/java/Jukebox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/main/java/Point.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/main/java/Reduce.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/main/java/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/main/java/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/main/java/Wolf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/src/test/java/TriangleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/target/classes/Ball.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/target/classes/BallStory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/target/classes/Battery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/target/classes/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/target/classes/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/target/classes/DummyDic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/target/classes/Excersices.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/target/classes/Fix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/target/classes/Fox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/target/classes/Hare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/target/classes/Jar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/target/classes/Jukebox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/target/classes/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/target/classes/Reduce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/target/classes/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/target/classes/Triangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4_oop/target/classes/Wolf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j_elementary" beforeDir="false" afterPath="$PROJECT_DIR$/job4j_elementary" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j_elementary/src/main/java/job4_oop/HierarchyUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/job4j_elementary/src/main/java/job4_oop/HierarchyUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j_elementary/src/main/java/ru/job4j/sort/Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/job4j_elementary/src/main/java/ru/job4j/sort/Machine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j_elementary/src/main/java/tracker/Go.java" beforeDir="false" afterPath="$PROJECT_DIR$/job4j_elementary/src/main/java/tracker/Go.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j_elementary/src/main/java/tracker/Tracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/job4j_elementary/src/main/java/tracker/Tracker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j_elementary/test/tracker/TrackerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/job4j_elementary/test/tracker/TrackerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j_oop/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j_oop/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j_oop/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j_oop/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j_oop/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j_oop/job4j_oop.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j_oop/src/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j_oop/src/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job4j.ex/ex/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/job4j.ex/ex/Find.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/job4j_tracker" beforeDir="false" afterPath="$PROJECT_DIR$/job4j_tracker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j_tracker/src/test/java/ru/job4j/tracker/TrackerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/job4j_tracker/src/test/java/ru/job4j/tracker/TrackerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job4j_tracker/src/main/java/ru/job4j/tracker/Annotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/job4j/collection/src/UsageHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/job4j/collection/src/UsageHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/job4j/search/src/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/job4j/search/src/PriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/job4j/search/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/job4j/search/src/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +50,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/job4j_elementary" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hfQQpG0KzWZHfTS3LcLCyy83c6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -87,10 +61,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600105259758" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/job4j_tracker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\job4j" />
+      <recent name="C:\projects" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -106,11 +86,27 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="805" y="118" key="FileChooserDialogImpl" timestamp="1602001559954">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="805" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602001559954" />
+    <state x="127" y="60" width="587" height="573" key="find.popup" timestamp="1603902967348">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="127" y="60" width="587" height="573" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1603902967348" />
   </component>
   <component name="masterDetails">
     <states>

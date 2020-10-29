@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/games_oop_javafx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/job4j.ex" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/job4j_elementary" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/job4j_tracker" vcs="Git" />
   </component>
