@@ -8,33 +8,33 @@ public class PhoneDictionary {
         this.persons.add(person);
     }
 
-    public String ret() {
-        String r = "";
-        for (Person s : persons) {
-            if (s.getAddress().equals("dera")) {
-                r = "Hadera";
-            } else if (s.getName().equals("tr")) {
-                r = "Petr";
-            } else if (s.getPhone().equals("742")) {
-                r = "53742";
-            } else if (s.getSurname().equals("ev")) {
-                r = "Sychaev";
+
+    public ArrayList<Person> find(String key) {
+        ArrayList<Person> res = new ArrayList<Person>();
+        for (Person s : res) {
+            if(  s.getAddress().equals(key)){
+                System.out.println("Hadera");
+            } else if (s.getName().equals(key)) {
+                System.out.println("Petr");
+            } else if (s.getPhone().equals(key)) {
+                System.out.println("53742");
+            } else if (s.getSurname().equals(key)) {
+                System.out.println("Sychaev");
             } else {
                 System.out.println("There is not item in list!");
             }
-        }
-        return r;
-    }
 
-    public ArrayList<Person> find(String key) {
-        ArrayList<Person> result = new ArrayList<Person>();
-        return result;
+        }
+        return res;
     }
 
     public static void main(String[] args) {
         PhoneDictionary p = new PhoneDictionary();
-        p.find("Petr");
-        System.out.println(p.ret());
+        ArrayList<Person> per = new ArrayList<>();
+        p.find("dera");
+        p.find("tr");
+        p.find("742");
+        p.find("ev");
 
     }
 }
