@@ -20,16 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2efb24c0-f8a5-46af-9a8d-c6fdeb419088" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/job4j/collection/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/job4j/collection/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/job4j/collection/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../games_oop_javafx" beforeDir="false" afterPath="$PROJECT_DIR$/../games_oop_javafx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../job4j_tracker" beforeDir="false" afterPath="$PROJECT_DIR$/../job4j_tracker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j/collection/src/UsageHashSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j/search/src/PriorityQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/job4j/search/src/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job4j/collection/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/job4j/collection/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job4j/collection/collection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/job4j/collection/collection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job4j/collection/src/ConvertList2Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/job4j/collection/src/main/java/ConvertList2Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job4j/collection/src/ConvertList2ArrayTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job4j/collection/src/UsageHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/job4j/collection/src/main/java/UsageHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job4j/search/src/main/java/PhoneDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/job4j/search/src/main/java/PhoneDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job4j/search/target/classes/PhoneDictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/job4j/search/target/classes/PhoneDictionary.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +57,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/job4j/collection" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -84,13 +87,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="804" y="118" key="FileChooserDialogImpl" timestamp="1603906346519">
+    <state x="745" y="52" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1604131457046">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="804" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603906346519" />
-    <state x="326" y="0" key="SettingsEditor" timestamp="1603906794902">
+    <state x="745" y="52" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1604131457046" />
+    <state x="804" y="118" key="FileChooserDialogImpl" timestamp="1604131487492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="326" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603906794902" />
+    <state x="804" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604131487492" />
+    <state x="326" y="0" key="SettingsEditor" timestamp="1604131442592">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="326" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604131442592" />
   </component>
 </project>

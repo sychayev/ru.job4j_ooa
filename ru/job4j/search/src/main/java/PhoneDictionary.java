@@ -12,14 +12,14 @@ public class PhoneDictionary {
     public ArrayList<Person> find(String key) {
         ArrayList<Person> res = new ArrayList<Person>();
         for (Person s : res) {
-            if(  s.getAddress().equals(key)){
-                System.out.println("Hadera");
-            } else if (s.getName().equals(key)) {
-                System.out.println("Petr");
-            } else if (s.getPhone().equals(key)) {
-                System.out.println("53742");
-            } else if (s.getSurname().equals(key)) {
-                System.out.println("Sychaev");
+            if (s.equals(key) || s.getAddress().equals(key)) {
+                res.add(s);
+            } else if (s.equals(key) || s.getName().equals(key)) {
+                res.add(s);
+            } else if (s.equals(key) || s.getPhone().equals(key)) {
+                res.add(s);
+            } else if (s.equals(key) || s.getSurname().equals(key)) {
+                res.add(s);
             } else {
                 System.out.println("There is not item in list!");
             }
