@@ -8,7 +8,6 @@ public class PhoneDictionary {
         this.persons.add(person);
     }
 
-
     public ArrayList<Person> find(String key) {
         ArrayList<Person> res = new ArrayList<Person>();
         for (Person s : res) {
